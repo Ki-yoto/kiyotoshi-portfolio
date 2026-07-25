@@ -28,6 +28,6 @@ export const projects = [
 ];
 
 export const contact = {
-  github: "https://github.com/あなたのユーザー名",
-  email: "あなたのメールアドレス（任意）",
+  github: "https://github.com/Ki-yoto",
+  email: "snks4ch8@hotmail.com",
 };
