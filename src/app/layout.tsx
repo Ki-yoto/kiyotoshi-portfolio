@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ポートフォリオ | coen エンジニアコミュニティ",
-  description: "coen エンジニアコミュニティ ワークショップで作成したポートフォリオ",
+  title: "志良堂 清俊 | ポートフォリオ",
+  description: "志良堂 清俊のエンジニアポートフォリオ",
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
@@ -17,7 +17,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         </header>
         <main className="mx-auto max-w-4xl px-4 py-10">{children}</main>
         <footer className="border-t bg-white py-6 text-center text-sm text-gray-500">
-          &copy; {new Date().getFullYear()} coen エンジニアコミュニティ
+          &copy; {new Date().getFullYear()} 志良堂 清俊
         </footer>
       </body>
     </html>
