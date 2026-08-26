@@ -1,113 +1,70 @@
-# coen エンジニアコミュニティ — ポートフォリオテンプレート
+# 清俊ポートフォリオ
 
-coen エンジニアコミュニティのワークショップ用ポートフォリオテンプレートです。
-`data/portfolio.ts` を編集するだけで、自分だけのポートフォリオサイトが完成します。
+エンジニアとしてのスキル・制作物・学習内容をまとめたポートフォリオサイトです。
 
-**技術スタック:** Next.js / React / TypeScript / Tailwind CSS / Vercel
+現在はJavaを中心に学習しており、Spring Bootを使用したWebアプリケーション開発にも取り組んでいます。
 
----
+## ポートフォリオサイト
 
-## セットアップ
+Next.js / React / TypeScript / Tailwind CSSを使用して作成しています。
 
-```bash
-npm install      # 依存パッケージのインストール
-npm run dev      # 開発サーバー起動 → http://localhost:3000
-npm run build    # 本番ビルド確認
-```
+Vercelを利用して公開しています。
 
----
+## Skills
 
-## 使い方
+* Java
+* Spring Boot
+* Git / GitHub
+* JSON
+* Android Studio
+* HTML / CSS
+* Next.js / React / TypeScript
+* Photoshop
 
-### 1. `data/portfolio.ts` を編集する（必須）
+※ 学習中の技術を含みます。
 
-自分の情報を書き換えるだけでポートフォリオが完成します。
+## Projects
 
-```ts
-export const profile = {
-  name: "あなたの名前",
-  role: "Webエンジニア",
-  bio: "自己紹介文をここに書いてください。",
-  avatarUrl: "/images/avatar.jpg",
-};
+### タスク管理アプリ
 
-export const skills = [
-  { name: "JavaScript", level: "学習中" },
-  { name: "React", level: "学習中" },
-];
+Java / Spring Bootを使用したタスク管理Webアプリケーションです。
 
-export const projects = [
-  {
-    title: "プロジェクト名",
-    description: "どんなものを作ったか、簡単な説明",
-    techStack: ["Next.js", "TypeScript"],
-    url: "https://github.com/あなたのユーザー名/リポジトリ名",
-  },
-];
+主な機能：
 
-export const contact = {
-  github: "https://github.com/あなたのユーザー名",
-  email: "あなたのメールアドレス（任意）",
-};
-```
+* タスクの追加
+* タスクの編集
+* タスクの削除
+* 完了・未完了の切り替え
+* タスク一覧表示
 
-### 2. プロフィール画像を差し替える（任意）
+**使用技術**
 
-`public/images/avatar.jpg` を自分の写真に差し替えてください。
-ファイル名を変えた場合は `portfolio.ts` の `avatarUrl` も更新してください。
+* Java 17
+* Spring Boot
+* Thymeleaf
+* Spring Data JPA
+* H2 Database
 
-### 3. デザインをカスタマイズする（任意・挑戦枠）
+現在、機能追加・改善を進めています。
 
-`src/components/` 内のファイルを編集してデザインを変更できます。
+## Development
 
----
+このポートフォリオでは以下の技術を使用しています。
 
-## プロジェクト構成
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Vercel
 
-```
-├── data/
-│   └── portfolio.ts           # ★ メイン編集ファイル
-├── public/
-│   └── images/                # プロフィール画像を置く場所
-├── src/
-│   ├── app/
-│   │   ├── layout.tsx         # 共通レイアウト
-│   │   ├── page.tsx           # トップページ
-│   │   └── globals.css        # グローバルスタイル
-│   └── components/
-│       ├── Profile.tsx        # プロフィールセクション
-│       ├── Skills.tsx         # スキル一覧セクション
-│       ├── Projects.tsx       # プロジェクト一覧セクション
-│       └── Contact.tsx        # 連絡先セクション
-```
+## 今後取り組むこと
 
----
+* Java / Spring Bootを使用したWebアプリケーション開発
+* Java Silver取得に向けた学習
+* AWSの学習
+* ポートフォリオへの制作物追加
+* Git / GitHubを使用した開発フローの習得
 
-## ブランチ運用
+## GitHub
 
-| ブランチ | 用途 |
-|:---|:---|
-| `main` | 公開用（直接コミット禁止） |
-| `feature/名前-portfolio` | 各自の作業ブランチ |
-
-```bash
-# 作業ブランチを作成（名前は自分の名前に変えてください）
-git checkout -b feature/tanaka-portfolio
-```
-
-作業が完了したら `main` への Pull Request を作成してください。
-
----
-
-## デプロイ
-
-PR が `main` にマージされると Vercel が自動でデプロイします。
-手動デプロイしたい場合は [Vercel](https://vercel.com) にサインインし、このリポジトリをインポートしてください。
-
----
-
-## 困ったときは
-
-- coen エンジニアコミュニティの Slack チャンネルで質問
-- 運営メンバーに直接連絡
-- エラーが出た場合はスクリーンショットと一緒に共有してください
+制作したアプリケーションや学習成果を順次公開していきます。
