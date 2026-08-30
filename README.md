@@ -29,6 +29,8 @@ Vercelを利用して公開しています。
 
 Java / Spring Bootを使用したタスク管理Webアプリケーションです。
 
+GitHub: https://github.com/Ki-yoto/task-manager
+
 主な機能：
 
 * タスクの追加
@@ -68,3 +70,5 @@ Java / Spring Bootを使用したタスク管理Webアプリケーションで�
 ## GitHub
 
 制作したアプリケーションや学習成果を順次公開していきます。
+
+GitHub: https://github.com/Ki-yoto
