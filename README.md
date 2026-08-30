@@ -10,6 +10,8 @@ Next.js / React / TypeScript / Tailwind CSSを使用して作成しています�
 
 Vercelを利用して公開しています。
 
+URL: https://kiyotoshi-portfolio.vercel.app
+
 ## Skills
 
 * Java
