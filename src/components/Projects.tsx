@@ -28,17 +28,16 @@ export const Projects = () => {
   })}
 </div>
 
-            <div className="grid gap-6 sm:grid-cols-2">
-              {project.techStack.map((tech) => (
-                <span
-                  key={tech}
-                  className="rounded bg-gray-100 px-2 py-1 text-xs text-gray-600"
-                >
-                  {tech}
-                </span>
-              ))}
-            </div>
-
+            <div className="mt-5 flex flex-wrap gap-2">
+  {project.techStack.map((tech) => (
+    <span
+      key={tech}
+      className="inline-block rounded-md bg-gray-100 px-3 py-1.5 text-sm text-gray-600"
+    >
+      {tech}
+    </span>
+  ))}
+</div>
             {/* ボタン */}
             <div className="mt-6 flex gap-3">
               <a
