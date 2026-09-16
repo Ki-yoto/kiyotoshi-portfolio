@@ -17,7 +17,7 @@ export const Projects = () => {
               {project.description}
             </p>
 
-            <div className="grid gap-6 grid-cols-1">
+            <div className="grid gap-6 sm:grid-cols-2">
               {project.techStack.map((tech) => (
                 <span
                   key={tech}
