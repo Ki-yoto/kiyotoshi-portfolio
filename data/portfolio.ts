@@ -24,7 +24,7 @@ export const projects = [
 
   description:
       `【制作期間】
-1ヶ月
+　1ヶ月
 【概要】
 Java 17・Spring Bootを使用して開発したタスク管理Webアプリケーションです。
 【実装内容】
