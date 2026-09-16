@@ -13,9 +13,20 @@ export const Projects = () => {
           >
             <h3 className="text-lg font-semibold">{project.title}</h3>
 
-            <p className="mt-2 text-sm leading-relaxed text-gray-600 whitespace-pre-line">
-              {project.description}
-            </p>
+            <div className="mt-2 text-sm leading-relaxed text-gray-600">
+  {project.description.split("\n").map((line, index) => {
+    const isHeading = /^【.*】$/.test(line.trim());
+
+    return (
+      <p
+        key={index}
+        className={isHeading ? "mt-4 font-bold text-gray-900" : "mt-1"}
+      >
+        {line || "\u00A0"}
+      </p>
+    );
+  })}
+</div>
 
             <div className="grid gap-6 sm:grid-cols-2">
               {project.techStack.map((tech) => (
