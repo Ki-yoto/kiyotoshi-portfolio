@@ -19,19 +19,26 @@ export const skills = [
 ];
 
 export const projects = [
-  {
-    title: "タスク管理アプリ",
-    description:
-      "Java・Spring Bootを使用して開発したタスク管理Webアプリケーションです。タスクの追加・編集・削除・完了状態の切り替え機能を実装しています。",
-    techStack: [
-      "Java 17",
-      "Spring Boot",
-      "Thymeleaf",
-      "Spring Data JPA",
-      "H2 Database",
-    ],
-    url: "https://github.com/Ki-yoto/task-manager",
-  },
+{
+  title: "タスク管理アプリ",
+
+  description:
+    "【制作期間：1ヶ月】Java 17・Spring Bootを使用して開発したタスク管理Webアプリケーションです。タスクの追加・一覧表示・編集・削除・完了／未完了の切り替えなど、基本的なCRUD機能を実装しました。Spring Data JPAとH2 Databaseを使用してデータを管理しています。Dockerでアプリケーションの実行環境を構築し、Renderを利用してWeb上に公開しています。公開したアプリはブラウザから実際に操作できます。",
+
+  techStack: [
+    "Java 17",
+    "Spring Boot",
+    "Thymeleaf",
+    "Spring Data JPA",
+    "H2 Database",
+    "Git / GitHub",
+    "Docker",
+    "Render",
+  ],
+
+  url: "https://task-manager-7joz.onrender.com",
+  githubUrl: "https://github.com/Ki-yoto/task-manager",
+},
 ];
 
 export const contact = {
