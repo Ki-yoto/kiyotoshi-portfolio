@@ -38,6 +38,7 @@ Spring Data JPAとH2 Databaseを使用してデータを管理しています。
 【公開環境】
 Dockerでアプリケーションの実行環境を構築し、Renderを利用してWeb上に公開しています。
 公開したアプリはブラウザから実際に操作できます。`,
+  
   techStack: [
     "Java 17",
     "Spring Boot",
