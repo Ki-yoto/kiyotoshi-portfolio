@@ -11,7 +11,9 @@ export const Projects = () => {
             key={project.title}
             className="rounded-lg border bg-white p-6 shadow-sm transition hover:shadow-md"
           >
-            <h3 className="text-lg font-semibold">{project.title}</h3>
+            <h3 className="text-center text-lg font-semibold">
+  　　　　　　　{project.title}
+　　　　　　　</h3>
 
             <div className="mt-2 text-sm leading-relaxed text-gray-600">
   {project.description.split("\n").map((line, index) => {
